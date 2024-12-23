@@ -49,7 +49,7 @@ export const useChatStore = create((set, get) => ({
     const socket = useAuthStore.getState().socket;
 
     // Tạo một đối tượng âm thanh
-    const notificationSound = new Audio("../public/audio.mp3");
+    const notificationSound = new Audio("/audio.mp3");
 
     socket.on("newMessage", (newMessage) => {
         const isMessageSentFromSelectedUser = newMessage.senderId === selectedUser._id;

@@ -12,7 +12,7 @@ const NoChatSelected = () => {
                         >
                             <img
                                 className="w-full h-full object-cover"
-                                src="../public/giphy.gif"
+                                src="/giphy.gif"
                                 alt="Welcome Animation"
                             />
                         </div>
